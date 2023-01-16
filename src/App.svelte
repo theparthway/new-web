@@ -1,11 +1,11 @@
 <script>
-	let name = 'pot';
-	let age = 19;
+	let people = [{name: "yoshi", age: 81},
+	{name: "parth", age: 19}];
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>You are {age} years old</p>
+	<h1>Hello {people[0].name}!</h1>
+	<p>You are {people[0].age} years old</p>
 </main>
 
 <style>
